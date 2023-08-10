@@ -2,7 +2,7 @@ console.log("Welcome to Connect");
 
 //initialze the Variables
 let songIndex = 0;
-let audioElement = new Audio('songs/s1.mp3');
+let audioElement = new Audio('s1.mp3');
 let masterPlay = document.getElementById('masterPlay');
 let myProgressBar = document.getElementById('myProgressBar');
 let gif = document.getElementById('gif');
@@ -12,11 +12,11 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Chitti", filePath: "songs/s1.mp3", coverPath: "covers/cover1.jpg"},
-    {songName: "On My Way", filePath: "songs/s2.mp3", coverPath: "covers/cover2.jpg"},
-    {songName: "My Dilemma", filePath: "songs/s3.mp3", coverPath: "covers/cover3.jpg"},
-    {songName: "Believer", filePath: "songs/s4.mp3", coverPath: "covers/cover4.jpg"},
-    {songName: "Kallo Kooda", filePath: "songs/s5.mp3", coverPath: "covers/cover5.jpg"}
+    {songName: "Chitti", filePath: "s1.mp3", coverPath: "cover1.jpg"},
+    {songName: "On My Way", filePath: "s2.mp3", coverPath: "cover2.jpg"},
+    {songName: "My Dilemma", filePath: "s3.mp3", coverPath: "cover3.jpg"},
+    {songName: "Believer", filePath: "s4.mp3", coverPath: "cover4.jpg"},
+    {songName: "Kallo Kooda", filePath: "s5.mp3", coverPath: "cover5.jpg"}
 ];
 
 songItems.forEach((element,i) =>{
